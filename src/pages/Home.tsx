@@ -2,6 +2,7 @@ export const Home = () => {
     return (
         <div className="flex justify-around items-center">  
             <div>
+                <div>UNDER CONTRUCTION !</div>
                 <div>Hello !</div>
                 <div>I'm Shubh</div>
                 <div>I'm a Fullstack Developer</div>
