@@ -55,7 +55,7 @@ export const Navbar = () => {
                 Projects
             </div>
 
-            <div
+            {/* <div
                 className={`${commonNavbarItemsStyles} ${
                     currentTab === "skills" ? "bg-blue-200" : "bg-white"
                 }`}
@@ -66,7 +66,7 @@ export const Navbar = () => {
             >
                 <Skill />
                 Skills
-            </div>
+            </div> */}
 
             <div
                 className={`${commonNavbarItemsStyles} ${
