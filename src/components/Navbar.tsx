@@ -4,7 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { Contact } from "../icons/NavbarIcons/Contact.tsx";
 import { Home } from "../icons/NavbarIcons/Home.tsx";
 import { Project } from "../icons/NavbarIcons/Project.tsx";
-import { Skill } from "../icons/NavbarIcons/Skill.tsx";
+// import { Skill } from "../icons/NavbarIcons/Skill.tsx";
 
 const commonNavbarItemsStyles =
     "flex flex-col items-center p-4 rounded-xl cursor-pointer hover:bg-blue-100 hover:-translate-y-3 transition-all duration-500 shadow-md";
