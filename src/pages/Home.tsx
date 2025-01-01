@@ -1,8 +1,11 @@
 import { Github } from "../icons/SocialIcons/Github";
 import { Linkedin } from "../icons/SocialIcons/Linkedin";
 import { Upwork } from "../icons/SocialIcons/Upwork";
+import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="flex flex-col md:flex-row justify-around items-center px-4 py-8 md:py-16">
       <div className="text-center md:text-left md:max-w-lg">
@@ -45,7 +48,9 @@ export const Home = () => {
         </div>
 
         <div className="mt-6">
-          <button className="bg-custom-2 px-4 py-2 text-white font-bold rounded-xl shadow-lg hover:-translate-y-2 transition-all duration-500 shadow-cyan-300">
+          <button onClick={() => {
+            navigate("contact")
+          }} className="bg-custom-2 px-4 py-2 text-white font-bold rounded-xl shadow-lg hover:-translate-y-2 transition-all duration-500 shadow-cyan-300">
             Contact Me
           </button>
         </div>
