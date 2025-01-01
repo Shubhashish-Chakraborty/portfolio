@@ -10,7 +10,7 @@ import { Skill } from "./pages/Skill.tsx";
 export default function App() {
     return(
     
-            <div className="h-screen bg-gradient-to-br bg-blue-50">
+            <div className="h-screen bg-blue-50">
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Layout/>}>

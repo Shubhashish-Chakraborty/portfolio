@@ -1,14 +1,13 @@
-import { Outlet } from "react-router-dom"
-import { Navbar } from "../components/Navbar"
+import { Outlet } from "react-router-dom";
+import { Navbar } from "../components/Navbar";
 
 export const Layout = () => {
     return (
-        <>
-            <Navbar/>
-
-            <Outlet/>
-
-            
-        </>
-    )
-}
+        <div className="h-screen flex flex-col">
+            <Navbar />
+            <div className="flex-grow">
+                <Outlet />
+            </div>
+        </div>
+    );
+};

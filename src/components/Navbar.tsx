@@ -44,19 +44,6 @@ export const Navbar = () => {
 
             <div
                 className={`${commonNavbarItemsStyles} ${
-                    currentTab === "skills" ? "bg-blue-200" : "bg-white"
-                }`}
-                onClick={() => {
-                    navigate("skills");
-                    handleTabClick("skills");
-                }}
-            >
-                <Skill />
-                Skills
-            </div>
-
-            <div
-                className={`${commonNavbarItemsStyles} ${
                     currentTab === "projects" ? "bg-blue-200" : "bg-white"
                 }`}
                 onClick={() => {
@@ -66,6 +53,19 @@ export const Navbar = () => {
             >
                 <Project />
                 Projects
+            </div>
+
+            <div
+                className={`${commonNavbarItemsStyles} ${
+                    currentTab === "skills" ? "bg-blue-200" : "bg-white"
+                }`}
+                onClick={() => {
+                    navigate("skills");
+                    handleTabClick("skills");
+                }}
+            >
+                <Skill />
+                Skills
             </div>
 
             <div
