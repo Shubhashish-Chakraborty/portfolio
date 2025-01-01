@@ -7,7 +7,7 @@ import { NotFound } from "./pages/NotFound.tsx";
 export default function App() {
     return(
     
-            <div className="h-screen bg-gradient-to-br bg-blue-100">
+            <div className="h-screen bg-gradient-to-br bg-blue-50">
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Layout/>}>

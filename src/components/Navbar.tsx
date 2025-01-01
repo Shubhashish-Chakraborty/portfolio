@@ -3,7 +3,7 @@ import { Home } from "../icons/NavbarIcons/Home.tsx";
 import { Project } from "../icons/NavbarIcons/Project.tsx";
 import { Skill } from "../icons/NavbarIcons/Skill.tsx";
 
-const commonNavbarItemsStyles = "flex flex-col items-center p-4 rounded-xl cursor-pointer hover:bg-blue-200 transition-all duration-500 shadow-md";
+const commonNavbarItemsStyles = "flex flex-col items-center p-4 rounded-xl cursor-pointer hover:bg-blue-200 hover:-translate-y-3 transition-all duration-500 shadow-md";
 
 export const Navbar = () => {
     return(
@@ -25,7 +25,7 @@ export const Navbar = () => {
                     Projects
                 </div>
 
-                <div onClick={() => {window.open("https://shubhlinks.vercel.app")}} className={`${commonNavbarItemsStyles}`}>
+                <div className={`${commonNavbarItemsStyles}`}>
                     <Contact/>
                     Contact
                 
