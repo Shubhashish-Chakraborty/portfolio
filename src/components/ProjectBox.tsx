@@ -13,9 +13,10 @@ export const ProjectBox = ({title , thumbnail , githubLink , webLink , descripti
     return (
         <div className="bg-white p-6 rounded-lg m-10 shadow-lg hover:-translate-y-3 transition-all duration-300 cursor-pointer max-w-xs w-full">
             <img
+                onClick={() => {window.open(webLink)}}
                 src={thumbnail}
                 alt="Project Thumbnail"
-                className="w-full h-48 object-cover rounded-t-lg mb-4"
+                className="w-full h-48 rounded-t-lg mb-4"
             />
             <div className="text-center font-bold text-custom-2 text-xl pb-4">
                 {title}
