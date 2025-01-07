@@ -18,7 +18,7 @@ export const ProjectBox = ({title , thumbnail , githubLink , webLink , descripti
                 alt="Project Thumbnail"
                 className="w-full h-48 rounded-t-lg mb-4"
             />
-            <div className="text-center font-bold text-custom-2 text-xl pb-4">
+            <div onClick={() => {window.open(webLink)}} className="text-center hover:underline font-bold text-custom-2 text-xl pb-4">
                 {title}
             </div>
             <div className="flex justify-center items-center mb-4">
