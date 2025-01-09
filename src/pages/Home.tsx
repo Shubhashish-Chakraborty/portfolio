@@ -1,5 +1,4 @@
 import { Github } from "../icons/SocialIcons/Github";
-import { Linkedin } from "../icons/SocialIcons/Linkedin";
 import { Twitter } from "../icons/SocialIcons/Twitter";
 import { Upwork } from "../icons/SocialIcons/Upwork";
 import { useNavigate } from "react-router-dom";
