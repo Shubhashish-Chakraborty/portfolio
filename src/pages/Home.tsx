@@ -1,5 +1,6 @@
 import { Github } from "../icons/SocialIcons/Github";
 import { Linkedin } from "../icons/SocialIcons/Linkedin";
+import { Twitter } from "../icons/SocialIcons/Twitter";
 import { Upwork } from "../icons/SocialIcons/Upwork";
 import { useNavigate } from "react-router-dom";
 
@@ -20,7 +21,7 @@ export const Home = () => {
           <span className="font-bold">Backend</span> Applications & APIs
         </div>
 
-        <div className="flex justify-center md:justify-start gap-4 mt-6">
+        <div className="flex justify-center items-center md:justify-start gap-4 mt-6">
           <div
             onClick={() => {
               window.open("https://github.com/Shubhashish-Chakraborty");
@@ -37,13 +38,21 @@ export const Home = () => {
           >
             <Upwork />
           </div>
-          <div
+          {/* <div
             onClick={() => {
               window.open("https://www.linkedin.com/in/Shubhashish-Chakraborty/");
             }}
             className="cursor-pointer"
           >
             <Linkedin />
+          </div> */}
+          <div
+            onClick={() => {
+              window.open("https://www.linkedin.com/in/Shubhashish-Chakraborty/");
+            }}
+            className="cursor-pointer"
+          >
+            <Twitter />
           </div>
         </div>
 
