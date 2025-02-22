@@ -8,7 +8,7 @@ export const ProjectBox = ({title , thumbnail , githubLink , webLink , descripti
     thumbnail: string,
     githubLink: string,
     webLink: string,
-    description: string
+    description?: string
 }) => {
     return (
         <div className="bg-white p-6 rounded-lg m-10 shadow-lg hover:-translate-y-3 transition-all duration-300 cursor-pointer max-w-xs w-full">
