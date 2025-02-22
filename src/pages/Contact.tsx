@@ -12,7 +12,7 @@ export const Contact = () => {
                 {/* Social Media Handles Section */}
                 <div className="text-center mb-8">
                     <h2 className="text-3xl font-bold text-gray-900">Contact Me</h2>
-                    <p className="mt-2 text-gray-600">Reach out via social media or the form below. Youll get a response as Soon as Possible!!</p>
+                    <p className="mt-2 text-gray-600">Reach out via social media. Youll get a response as Soon as Possible!!</p>
                     <div className="mt-4 flex justify-center gap-4">
                         {/* Placeholder for Social Media Icons */}
                         <a href="https://github.com/Shubhashish-Chakraborty" target='_blank' className="text-gray-500">
