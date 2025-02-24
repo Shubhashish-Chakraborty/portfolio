@@ -5,6 +5,7 @@ export const Project = () => {
         <>  
             <div className="flex justify-center flex-wrap bg-blue-50">
                 <ProjectBox title="Tech Learning PlatForm" thumbnail="https://www.studywithshubh.tech/swsBrandImg.png" githubLink="https://github.com/Shubhashish-Chakraborty/StudyWithShubh"  webLink="https://www.studywithshubh.tech/" />
+                <ProjectBox title="Infino || E-Commerce Platform" thumbnail="https://avatars.githubusercontent.com/u/200642485" githubLink="https://github.com/infinostore"  webLink="https://github.com/infinostore" />
                 <ProjectBox title="Real-Time ChatApp" thumbnail="https://convoroom.vercel.app/convoRoomLogo.png" githubLink="https://github.com/Shubhashish-Chakraborty/convoroom"  webLink="https://convoroom.vercel.app" />
                 <ProjectBox title="The ExtraOrdinary URL Shortener" thumbnail="https://theshortlink.vercel.app/tslLogo.png" githubLink="https://github.com/Shubhashish-Chakraborty/TheShortLink"  webLink="https://theshortlink.vercel.app" />
                 <ProjectBox title="Private Data Manager" thumbnail="https://myprivdata.vercel.app/myPrivData_Logo.png" githubLink="https://github.com/Shubhashish-Chakraborty/myprivdata"  webLink="https://myprivdata.vercel.app" />
